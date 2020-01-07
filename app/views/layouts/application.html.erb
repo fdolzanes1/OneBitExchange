@@ -10,7 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
-  <body>
+  <body>  
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">OneBitExchange</a>
+  </nav>
+  <div class="bg">
     <%= yield %>
+    </div>
+  <!-- Footer -->
+  <footer class="navbar fixed-bottom navbar-dark bg-dark">
+    <div class="navbar-brand py-3">© 2020 Copyright:
+      <a href="https://fdolzanes1.github.io" target="_blank"> Fabiano Dolzanes</a>
+    </div>
+  </footer>
   </body>
 </html>
