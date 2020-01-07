@@ -1,8 +1,7 @@
 $(document).ready ->
 
-  $('form').submit ->
-    if $('form').attr('action') == '/convert'
-      $.ajax '/convert',
+  $('#amount').keyup -> 
+    $.ajax '/convert',
           type: 'GET'
           dataType: 'json'
           data: {
