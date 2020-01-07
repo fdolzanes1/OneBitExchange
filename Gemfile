@@ -7,6 +7,8 @@ end
 
 gem 'rest-client'
 gem 'webmock'
+# Bootstrap
+gem 'bootstrap', '~> 4.1.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2'
