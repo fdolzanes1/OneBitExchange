@@ -1,5 +1,11 @@
+body, html{
+  height: 97%;
+}
+
 .bg {
   background-image: url("/exchange-background.jpg"); 
+  height: 90%;
+  background-position: center;  
   background-repeat: no-repeat;
   background-size: cover;
 }
