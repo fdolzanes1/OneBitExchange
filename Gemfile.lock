@@ -78,6 +78,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.9.0)
     execjs (2.7.0)
+    ffi (1.11.3)
     ffi (1.11.3-x64-mingw32)
     ffi (1.11.3-x86-mingw32)
     globalid (0.4.2)
@@ -111,15 +112,18 @@ GEM
     minitest (5.13.0)
     netrc (0.11.0)
     nio4r (2.5.2)
+    nokogiri (1.10.7)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.7-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.7-x86-mingw32)
       mini_portile2 (~> 2.4.0)
+    pg (1.2.1)
     pg (1.2.1-x64-mingw32)
     pg (1.2.1-x86-mingw32)
     popper_js (1.14.5)
     public_suffix (4.0.2)
-    puma (3.12.2)
+    puma (3.12.3)
     rack (2.0.8)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -152,6 +156,11 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (1.6.0)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rest-client (2.1.0-x64-mingw32)
       ffi (~> 1.9)
       http-accept (>= 1.7.0, < 2.0)
@@ -231,6 +240,7 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
+  ruby
   x64-mingw32
   x86-mingw32
 
@@ -243,7 +253,7 @@ DEPENDENCIES
   material_icons
   materialize-sass (~> 1.0.0)
   pg (>= 0.18, < 2.0)
-  puma (~> 3.7)
+  puma (~> 3.12)
   rails (~> 5.2)
   rest-client
   rspec-rails (~> 3.5)
