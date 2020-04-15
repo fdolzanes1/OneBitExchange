@@ -1,22 +1,10 @@
-# README
+<h1 align="center">OneBitExchange</h1>
+  <p align="center">
+  <strong align="center"></strong>
+</p>
+  <img src="home.jpg" float="center"/>
+</p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
 
-Things you may want to cover:
-
-* Ruby version
-  2.3.3
-* System dependencies
-
-* Configuration
-
-* Database creation
-  postgres
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+- [Ruby on Rails](https://rubyonrails.org/)
